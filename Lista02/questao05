@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>Lista não ordenada: Livros para o ENEM</h2>
+    <UL>
+        <LI>Grande Sertão: Veredas</LI>
+        <LI>Capitães de Areia</LI>
+        <LI>Manifesto da Poesia Pau-Brasil</LI>
+        <LI>Triste Fim de Policarpo Quaresma</LI>
+        <LI>Memórias Póstumas de Brás Cubas</LI>
+    </UL>
+    
+    <h2>Lista ordenada: Músicas para ouvir estudando</h2>
+    <OL>
+        <LI>Beethoven: 5th Symphony</LI>
+        <LI>Tchaikovsky: 1812 Overture</LI>
+        <LI>Mozart: Eine Kleine Nachtmusik</LI>
+        <LI>Bach: Toccata and Fugue</LI>
+        <LI>Rossini: William Tell Overture</LI>
+    </OL>
+</body>
+</html>

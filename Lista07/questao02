@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #ffffff;
+}
+
+h1{
+    background: orange;
+    padding: 20px;
+}
+form {
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    max-width: 600px;
+    margin: auto;
+}
+input, select, textarea {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+input[type="submit"], input[type="button"] {
+    background-color: #E0E0E0;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    width: 80px;
+    display: inline-block;
+}
+h1 {
+    text-align: center;
+    background: #FFD700;
+    padding: 5px;
+    border: 1px solid black;
+}
+.sub-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+    </style>
+    
+</head>
+<body>
+    
+    <h1>SISTEMA DE GESTÃO ACADÊMICA</h1>
+    <div class="sub-header">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</div><br>
+    <form>
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" required><br>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br>
+
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+            <option value="inativo">Inativo</option>
+        </select><br><br>
+        
+        <label>Tipo:</label>
+        <input type="radio" id="tecnico" name="tipo" value="tecnico"> <label for="tecnico">Técnico</label>
+        <input type="radio" id="professor" name="tipo" value="professor"> <label for="professor">Professor</label>
+        <input type="radio" id="aluno" name="tipo" value="aluno"> <label for="aluno">Aluno</label><br>
+        
+        <label for="data_criacao">Data Criação:</label>
+        <input type="date" id="data_criacao" name="data_criacao" required><br>
+        
+        <label>Perfil:</label>
+        <input type="radio" id="convidado" name="perfil" value="convidado"> <label for="convidado">Convidado</label>
+        <input type="radio" id="administrador" name="perfil" value="administrador"> <label for="administrador">Administrador</label><br>
+        
+        <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="30"></textarea><br>
+        
+        <label>Módulos:</label>
+        <input type="checkbox" id="compras" name="modulos" value="compras"> <label for="compras">Compras</label>
+        <input type="checkbox" id="biblioteca" name="modulos" value="biblioteca"> <label for="biblioteca">Biblioteca</label>
+        <input type="checkbox" id="academico" name="modulos" value="academico"> <label for="academico">Acadêmico</label>
+        <input type="checkbox" id="documentacao" name="modulos" value="documentacao"> <label for="documentacao">Documentação</label>
+        <input type="checkbox" id="recursos_humanos" name="modulos" value="recursos_humanos"> <label for="recursos_humanos">Recursos Humanos</label><br>
+        
+        <br>
+        <input type="submit" value="Cadastrar">
+        <input type="button" value="Excluir">
+    </form>
+</body>
+</html>
+

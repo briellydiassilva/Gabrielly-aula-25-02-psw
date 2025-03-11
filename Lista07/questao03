@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #e0f7fa;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+        background: pink;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 22px;
+    }
+    
+    fieldset {
+        border: 2px solid #ffab91;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 8px;
+        background: #fff3e0;
+    }
+    
+    legend {
+        font-weight: bold;
+        color: #e64a19;
+    }
+    
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    input, textarea {
+        width: calc(100% - 20px);
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    input[type="checkbox"] {
+        width: auto;
+        margin-right: 5px;
+    }
+    
+    button {
+        background: #ff7043;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+        margin-right: 10px;
+    }
+    
+    button:hover {
+        background: #e64a19;
+    }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro Infantil no Hospital</h1>
+        
+        <form>
+            <fieldset>
+                <legend>Dados da Criança</legend>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" required>
+                
+                <label for="responsavel">Nome do Responsável:</label>
+                <input type="text" id="responsavel" name="responsavel" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Informações Médicas</legend>
+                <label>Condições pré-existentes:</label>
+                <input type="checkbox" id="asma" name="condicao" value="asma"> <label for="asma">Asma</label>
+                <input type="checkbox" id="diabetes" name="condicao" value="diabetes"> <label for="diabetes">Diabetes</label>
+                <input type="checkbox" id="alergia" name="condicao" value="alergia"> <label for="alergia">Alergia</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Contato</legend>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Observações</legend>
+                <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea>
+            </fieldset>
+            
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+</body>
+</html>

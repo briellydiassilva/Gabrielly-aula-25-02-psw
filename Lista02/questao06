@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <p>Limpe seus ouvidos e se prepare para a lista que mostra várias músicas clássicas que você provavelmente conhece e nem sabia disso.</p>
+    
+    <ol>
+        <li><b>Beethoven: 5<sup>th</sup> Symphony</b> – Música de suspense e terror clássica. Aparecia no <i>Mais Você</i> quando a Ana Maria Braga provava uma comida. Apareceu também no filme: <u>"Se eu fosse você"</u>. Entre outras participações.</li>
+        
+        <li><b>Tchaikovsky: 1812 Overture</b> – Música de fanfarra, sinceramente, acho que não é tão conhecida assim, mas em todo caso está aqui marcando presença.</li>
+        
+        <li><b>Mozart: Eine Kleine Nachtmusik</b> – <big>Pequena serenata</big>, obrigatória para os fãs de clássicos. Presente também no rock na música <i>Clássico</i> de Tenacious D. <small>Muita gente conhece.</small></li>
+        
+        <li><b>Bach: Toccata And Fugue</b> – Música de Impacto, presente em diversos filmes e até mesmo em desenho animado.</li>
+        
+        <li><b>Rossini: William Tell Overture</b> – Música de entrada de reis ou de cavalos. Presente em quase todos os cartoons como <i>Piu-piu e Frajola</i>, <i>Tom e Jerry</i> ou <i>Pica-Pau</i>. Filmes medievais antigos também possuem essa música. Importante ainda citar que o Mickey já regeu essa música em <u>The Band Concert</u>, o que particularmente tornou impossível para mim pensar nela sem lembrar de um tornado.</li>
+    </ol>
+</body>
+</html>

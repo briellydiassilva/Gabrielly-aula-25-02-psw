@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Deixe um comentário</h1>
+
+<form>
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+
+  <label for="lname">E-mail:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+
+  <label for="fname">Website:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+
+  <label for= "fname"> Comentário:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea>
+        
+  <p> Obs: Seu comentário será publicado após passar pelo moderador. </p>
+
+  <input type="submit" value="Enviar comentário">
+</form>
+
+</body>
+</html>
